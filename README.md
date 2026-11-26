@@ -1,61 +1,59 @@
-# 3legant Home Decor
+# 3legant Modern Interior & Home Decor Store
 
-> Modern furniture and interior decor e-commerce web platform.
+> Production-ready e-commerce web application engineered for modern home furnishings, lighting, and interior decor.
 
-## Overview
+## 1. System Overview
 
-3legant is a modern, responsive e-commerce web platform designed for luxury home decor, furniture, and interior styling. Built with Next.js and Tailwind CSS, it offers smooth catalog browsing, product filtering, and cart management.
+3legant is a modern furniture and interior living e-commerce platform built with Next.js, TypeScript, and Tailwind CSS. Designed to showcase residential furnishings, the platform provides smooth faceted search, room-by-room collections, and responsive cart management.
 
-## Key Features
+## 2. Technical Architecture
 
-- Responsive product catalog with category and price filtering
-- Interactive product details with high-resolution image galleries
-- Shopping cart state management with persistent local storage
-- Clean modern typography and layout optimized for mobile and desktop
+```
+[ User Storefront ]
+        │
+        ▼
+[ Next.js Component Hierarchy ]
+        │
+        ├──▶ [ Category Taxonomy (Living, Bedroom, Kitchen, Office) ]
+        ├──▶ [ High-Resolution Product Gallery & Specifications ]
+        └──▶ [ Client Shopping Cart with Persistent Local State ]
+```
 
-## Architecture and Technology Stack
+### Technology Stack
+- **Framework:** Next.js (TypeScript, React)
+- **Styling:** Tailwind CSS, PostCSS
+- **Component Primitives:** Accessible UI patterns
+- **Asset Optimization:** next/image responsive image loaders
 
-- **Core Technologies:** Next.js, React, TypeScript, Tailwind CSS, Lucide React
-- **Author:** Yusra Saleem
-- **Portfolio:** [yusrasaleem.dev](https://yusrasaleem.dev)
+## 3. Core Capabilities
 
-## Getting Started
+- **Room-by-Room Categorization:** Grouping products by residential living spaces for targeted discovery.
+- **Product Inspection:** High-resolution zoom views, dimension specifications, and material breakdown.
+- **Cart Management:** Real-time quantity adjustments, price calculations, and checkout preview.
+- **Responsive Navigation:** Accessible drawer menus and header search across all viewports.
 
-### Prerequisites
+## 4. Directory Structure
 
-Ensure you have the required runtime environment installed for this repository:
-- Node.js (v18+) for JavaScript/TypeScript projects
-- Python (3.10+) for Python services and agent workflows
+```
+3legant-home-decor/
+├── src/                      # Page components, product cards, and layouts
+├── public/                   # High-res interior decor photography
+├── tailwind.config.ts        # Clean architectural design tokens
+└── package.json              # Dependency manifests
+```
 
-### Installation
-
-Clone the repository to your local machine:
+## 5. Getting Started
 
 ```bash
 git clone https://github.com/Yusra-Saleem/3legant-home-decor.git
 cd 3legant-home-decor
-```
 
-Install dependencies:
-
-```bash
-# For Node / Next.js projects
 npm install
-
-# For Python projects
-pip install -r requirements.txt
-```
-
-### Running Locally
-
-```bash
-# Start local development server
 npm run dev
-
-# Or for Python entry points
-python main.py
 ```
 
-## License
+## 6. Author and License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for complete details.
+- **Author:** Yusra Saleem
+- **Portfolio:** [yusrasaleem.dev](https://yusrasaleem.dev)
+- **License:** Licensed under the [MIT License](LICENSE).
